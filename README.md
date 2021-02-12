@@ -1,2 +1,2 @@
 # Data-Science-Projects
-In this repository I show the data science projects I've working on.
+In this repository I show some data science projects I've been working on.
