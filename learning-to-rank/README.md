@@ -23,41 +23,46 @@ Identify and list the 20.000 potential customers with higer propobability of acc
 # 3. Business Hypothesis
 
 In order to know the problem situation better, some assumptions were made about the company and about the customers. They are:
-### 1. The lower the age, the greater the chance of accepting the new insurance proposal.
+1. The lower the age, the greater the chance of accepting the new insurance proposal.
 
-### 2. Women take more insurance than men.
+2. Women take more insurance than men.
 
-### 3. People paying a lower annual premium have a greater chance to accept new car insurance proposal.
+3. People paying a lower annual premium have a greater chance to accept new car insurance proposal.
 
-### 4. Peopĺe who have already damage a car have higher probability of accepting a car insurance.
+4. Peopĺe who have already damage a car have higher probability of accepting a car insurance.
 
-### 5. People with previous ensurance has greater chance to accept the car insurance proposal.
+5. People with previous ensurance has greater chance to accept the car insurance proposal.
 
-### 6. Regions with more traffic and accidents have more people willing to purchase car insurance.
+6. Regions with more traffic and accidents have more people willing to purchase car insurance.
 
-### 7. People who doesn't have a driving license will not accept the new car insurance.
+7. People who doesn't have a driving license will not accept the new car insurance.
 
-### 8. People with newer car have more chance to purchase a car insurance.
+8. People with newer car have more chance to purchase a car insurance.
 
-### 9. Older customers have higher probability to accept a proposal to purchase a car insurance from the All Insurance company.
+9. Older customers have higher probability to accept a proposal to purchase a car insurance from the All Insurance company.
 
 
 # 4. Solution Strategy
 
 This kind of problem is known as "learning to rank problems", in which we can use classification supervised learning techniques to create a list of customers ordered by his/her probability of purchasing the new insurance proposal. In order to reach a solution for this problem, I plan the following steps:
 
-### 1. Understand the business and the problem.
-### 2. Make an exploratory analysis of the data to know it better.
-### 3. Prepare the data in order to make it possible to be assimilated by the models.
-### 4. Select and apply some Machine Learning classifiers and assess the performance of those classifiers.
-### 5. Evaluate the results and the process regarding to the business problem.
-### 6. Show the results.
+1. Understand the business and the problem.
+
+2. Make an exploratory analysis of the data to know it better.
+
+3. Prepare the data in order to make it possible to be assimilated by the models.
+
+4. Select and apply some Machine Learning classifiers and assess the performance of those classifiers.
+
+5. Evaluate the results and the process regarding to the business problem.
+
+6. Show the results.
 
 # 5. Important Insights from EDA
 
-### 1. Customers that had already gotten involved in car accident is more likely to accept the new proposal.
-### 2. Customers with previous insurance are less likely to accept the new proposal.
-### 3. People with driving license said they would purchase the new insurance with a proportion similiar to the people without driving license. This show a relative lack of interest in general of accepting the new insurance proposal.
+1. Customers that had already gotten involved in car accident is more likely to accept the new proposal.
+2. Customers with previous insurance are less likely to accept the new proposal.
+3. People with driving license said they would purchase the new insurance with a proportion similiar to the people without driving license. This show a relative lack of interest in general of accepting the new insurance proposal.
 
 # 6. Machine Learning models applied
 
