@@ -20,7 +20,7 @@ Knowing the customers with higher probability of accepting the new insurance pro
 
 Identify and list the 20.000 potential customers with higer propobability of accepting a new car insurance proposal.
 
-# 3. Business Hypothesis
+# 2. Business Hypothesis
 
 In order to know the problem situation better, some assumptions were made about the company and about the customers. They are:
 1. The lower the age, the greater the chance of accepting the new insurance proposal.
@@ -42,13 +42,13 @@ In order to know the problem situation better, some assumptions were made about 
 9. Older customers have higher probability to accept a proposal to purchase a car insurance from the All Insurance company.
 
 
-# 4. Solution Strategy
+# 3. Solution Strategy
 
-This kind of problem is known as "learning to rank problems", in which we can use classification supervised learning techniques to create a list of customers ordered by his/her probability of purchasing the new insurance proposal. In order to reach a solution for this problem, I plan the following steps:
+This kind of problem is known as "learning to rank problems", in which we can use classification supervised learning techniques to create a list of customers ordered by his/her probability of purchasing the new insurance. In order to reach a solution for this problem, I plan the following steps:
 
-1. Understand the business and the problem.
+1. Understand the business as a whole and this specific problem situation.
 
-2. Make an exploratory analysis of the data to know it better.
+2. Make an exploratory analysis of the data to gain in-depth knowledge about the problem.
 
 3. Prepare the data in order to make it possible to be assimilated by the models.
 
@@ -58,13 +58,13 @@ This kind of problem is known as "learning to rank problems", in which we can us
 
 6. Show the results.
 
-# 5. Important Insights from EDA
+# 4. Important Insights from EDA
 
 1. Customers that had already gotten involved in car accident is more likely to accept the new proposal.
 2. Customers with previous insurance are less likely to accept the new proposal.
 3. People with driving license said they would purchase the new insurance with a proportion similiar to the people without driving license. This show a relative lack of interest in general of accepting the new insurance proposal.
 
-# 6. Machine Learning models applied
+# 5. Machine Learning models applied
 
 In order to solve this problem, I applied 6 Machine learning models to the data. They are:
 - Logistic Regression
@@ -74,13 +74,13 @@ In order to solve this problem, I applied 6 Machine learning models to the data.
 - LightGBM
 - CatBoost
 
-[:wrench:] Under construction!
+:wrench: Under construction! The below steps will be accomplished in the next cycles of the project.
 
-# 7. Machine Learning performance
+# 6. Machine Learning performance
 
-# 8. Business results
+# 7. Business results
 
-# 9. Conclusions
+# 8. Conclusions
 
 # 9. Learned lessons
 
