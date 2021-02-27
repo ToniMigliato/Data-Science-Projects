@@ -1,6 +1,6 @@
 # Learning to Rank
 
-# Ranking Potential Customers
+### Ranking Potential Customers
 
 ![](https://github.com/ToniMigliato/Data-Science-Projects/blob/main/learning-to-rank/images/cover_learning_ranking.jpg)
 <span>Photo by <a href="https://unsplash.com/@mikepetrucci?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mike Petrucci</a> on <a href="https://unsplash.com/s/photos/shopping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
