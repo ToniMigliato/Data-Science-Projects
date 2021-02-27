@@ -8,7 +8,7 @@
 # 1. The Company
 The company we are analysing provides health insurance for its customers and the product manager is considering the possibility of offering a new product: a car insurance. Last year, the company made a research with 380.000 customers asking them about their interest in purchasing a new car insurance. All customers showed if he/she was interested or not in acquiring the new proposal. Their answers is in a database together with other informations about the customers. The Product Team selected 127.000 new customers that didn't answered the research to participate in a marketing campaign, when they will receive an offer for the new car insurance.
 
-## Business Problem
+## 1.1 Business Problem
 
 The company has 127.000 potential customers to accept the new car insurance proposal but it is able only to call to 20.000. Which customers should the company sellers prioritize to call to? Which of the 127.000 are the 20.000 most probable to accept the new proposal?
 
@@ -16,7 +16,7 @@ The company has 127.000 potential customers to accept the new car insurance prop
 
 Knowing the customers with higher probability of accepting the new insurance proposal, the insurance company will gain efficacy and optimization of its processes by addressing your team to those customers. This gain in efficacy means optimal use of resources (people, time), which lead to the achievement of a useful goal (delivery of the proposal to the higher probability customers).
 
-### Objective of this Project
+## 1.2 Objective of this Project
 
 Identify and list the 20.000 potential customers with higer propobability of accepting a new car insurance proposal.
 
@@ -76,7 +76,7 @@ The classifiers I selected are listed below:
 - LightGBM
 - CatBoost
 
-## Model Assessment
+## 5.1 Model Assessment
 In this project, we want to rank the potential customer by their probabilities of purchasing the new car insurance. So, to make predictions in the validation dataset, I used the predict_proba function instead of the traditional predict function, from Scikit-learn package. The predict_proba function gives us the probabilities of a particular individual being from class 0 and class 1. Then, I sorted the results in descending order by the class 1 probabilities and evaluated, among the first 20,000 individuals (remember that the company manages to make the offer for this number of customers), how many actually belonged to class 1. In a perfect classification, all individuals with label 1 should be listed among the first in the ordered list. Thus, the best classifier is the one that manages to get more individuals from class 1 in the ordered list. Thus, the best classifier was the one that managed to get more individuals from class 1 at the top of the ordered list. That is, the classifier that was able to predict high probabilities for individuals who really were from class 1. The metrics used to make this assessment were "precision at k" and "recall at k".
 
 
